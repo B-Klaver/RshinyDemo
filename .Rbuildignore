@@ -1,0 +1,5 @@
+^notes\.Rmd$
+^app\.R$
+^deploy\.R$
+^.*\.Rproj$
+^\.Rproj\.user$

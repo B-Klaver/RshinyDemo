@@ -1,0 +1,48 @@
+---
+title: "Notes"
+output: 
+  html_document:
+    toc: true
+    toc_depth: 3
+    toc_float:
+      collapsed: true
+      smooth_scroll: true
+    code_folding: show
+date:  '<br>*Last Updated: `r format(Sys.Date(), "%B %d, %Y")`*'
+---
+
+<style type="text/css">
+.main-container {
+  max-width: 1600px;
+  margin-left: 50px;
+  margin-right: auto;
+}
+</style>
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo      = TRUE)
+knitr::opts_chunk$set(warning   = FALSE)
+knitr::opts_chunk$set(message   = FALSE)
+knitr::opts_chunk$set(fig.align = 'center')
+knitr::opts_chunk$set(dpi       = 200)
+
+sapply(c('DiagrammeR'),
+       require,
+       character.only = TRUE)
+
+
+```
+
+<br>
+
+## 1 Introduction
+
+This HTML notebook is intended to provide an overview..........
+
+
+
+
+
+
+
+
